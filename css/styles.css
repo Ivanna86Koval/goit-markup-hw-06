@@ -654,10 +654,15 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  position: absolute;
+  /*position: absolute;
   text-align: center;
   color: #2e2f42;
   padding-top: 72px;
   padding-left: 24px;
-  padding-right: 24px;
+  padding-right: 24px;*/
+  margin-bottom: 16px;
+}
+
+.modal-input {
+  width: 360px Height 40px Top 18px Radius 4px;
 }
