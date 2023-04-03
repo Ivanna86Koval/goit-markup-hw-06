@@ -616,6 +616,7 @@ img {
   transform: translate(-50%, -50%) scaleY(1);
   transition: transform 300ms linear;
   padding: 24px;
+  padding-top: 72px;
 }
 
 .modal-close {
@@ -654,15 +655,22 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /*position: absolute;
+  width: 360px;
+  height: 24px;
+  display: flex;
   text-align: center;
+  left: 540px;
+  top: 152px;
   color: #2e2f42;
-  padding-top: 72px;
-  padding-left: 24px;
-  padding-right: 24px;*/
   margin-bottom: 16px;
 }
 
 .modal-input {
-  width: 360px Height 40px Top 18px Radius 4px;
+  width: 100%;
+  height: 40px;
+  top: 18px;
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding-left: 16px;
 }
