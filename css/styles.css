@@ -676,6 +676,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  outline: transparent;
 }
 
 .modal-input::placeholder {
@@ -707,6 +708,15 @@ img {
   transform: translateY(-50%);
 }
 
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-input:focus + .modal-input-icon {
+  fill: #4d5ae5;
+}
+
 .input-wrap {
   position: relative;
+  margin-bottom: 8px;
 }
