@@ -476,6 +476,28 @@ img {
   fill: #8e8f99;
 }
 
+.footer-component {
+  align-items: center;
+  margin-right: auto;
+  padding-bottom: 132px;
+}
+.component-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+}
+.component-field {
+}
+.component-lable-text {
+}
+.component-textarea {
+}
+
 /*==================portfolio===============*/
 
 .portfolio {
