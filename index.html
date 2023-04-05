@@ -456,14 +456,16 @@
         </div>
          <div class="footer-component">
           <h3 class="component-text">Subscribe</h3>
+          <form class="component-form">
           <div class="component-field">
-          <label span class="component-lable-text" for="user-component"></label>
-            <textarea class="component-textarea" name="user-component" id="component" placeholder="E-mail"></textarea>
-          </div>
-          <button type="submit" class="modal-btn" class="component-btn-input">
+         <input class="component-input" type="email" id="user-subscribe" name="user-subscribe" placeholder="E-mail">
+          <button type="submit" class="modal-btn component-btn-input">
             Subscribe
-          </button>
+          <svg width="24" height="24" class="component-icon">
+            <use href="./images/icons-6.svg#icon-Frame-3"></use>
+          </svg></button>
       </div>
+      </form>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -525,7 +527,7 @@
           <label span class="modal-lable-text" for="user-comment">Comment</label>
             <textarea class="modal-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
           </div>
-          <button type="submit" class="modal-btn" class="modal-btn-input">
+          <button type="submit" class="modal-btn modal-btn-input">
             Send
           </button>
         </form>
