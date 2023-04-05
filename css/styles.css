@@ -692,6 +692,12 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-close:hover,
+.modal-close:focus {
+  background-color: #404bbf;
+  fill: #ffffff;
+}
+
 .modal-close-icon {
   top: 8px;
   left: 8px;
@@ -715,10 +721,7 @@ img {
   letter-spacing: 0.02em;
   width: 360px;
   height: 24px;
-  display: flex;
   text-align: center;
-  left: 540px;
-  top: 152px;
   color: #2e2f42;
   margin-top: 24px;
   margin-bottom: 16px;
